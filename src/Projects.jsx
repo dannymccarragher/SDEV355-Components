@@ -13,15 +13,14 @@ const Projects = () => {
     },
   ];
 
-  const projectName = projects.map(project => <h4> {project.name} </h4>);
-  const projectDescription = projects.map(project => <p> {project.description}</p>)
+  const projectName = projects.map(project => <><h4> {project.name} </h4><p>{project.description}</p></>);
+
 
   return (
     <>
     <div>
       <h3> Projects </h3>
       {projectName}
-      {projectDescription}
     </div>
     </>
   );
