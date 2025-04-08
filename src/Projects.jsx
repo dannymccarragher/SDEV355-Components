@@ -1,3 +1,4 @@
+// Components Renders The data from the projects array
 const Projects = () => {
 
   const projects = [

@@ -1,3 +1,4 @@
+// Renders Contact Info Componnt
 const Contact = () => {
     return(
         <>

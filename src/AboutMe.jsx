@@ -1,3 +1,6 @@
+// Component renders each element in the array 
+// Displays Name, Current Role, and each hobbie
+
 const AboutMe = () => {
     const hobbies = ['Fishing', 'Hiking', 'Video Games', "Coding", "LeetCode"];
 
