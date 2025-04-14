@@ -1,4 +1,4 @@
-// Renders Contact Info Componnt
+// Renders Static Contact Info 
 const Contact = () => {
     return(
         <>
